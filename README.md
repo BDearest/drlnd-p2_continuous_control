@@ -18,4 +18,5 @@ In order to run this agent, one must have Python 3, PyTorch, Unity, Jupyter Note
 *[Windows 32-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
         
 *[Windows 64-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
+
 Once the environment is downloaded, it should be put in the root directory of this cloned repository and unzipped.

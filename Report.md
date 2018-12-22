@@ -5,14 +5,22 @@ The algorithm used for this project is DDPG, Deep Deterministic Policy Gradients
 
 ## Hyperparameters
 The hyperparameters for the algorithm were set as follows:
+
         *Buffer Size 5e5
-        *Batch Size 128
-        *Gamma 0.99
-        *Tau 1e-3
-        *Learning Rate for Actor 2e-3
-        *Learning Rate for Critic 2e-4
-        *Weight Decay 0
-        *Learning steps (sets how often the gradient is updated-expressed in times per 20 timesteps) 10
+        
+	*Batch Size 128
+        
+	*Gamma 0.99
+        
+	*Tau 1e-3
+        
+	*Learning Rate for Actor 2e-3
+        
+	*Learning Rate for Critic 2e-4
+        
+	*Weight Decay 0
+        
+	*Learning steps (sets how often the gradient is updated-expressed in times per 20 timesteps) 10
 
 ## Neural Network Architecture
 The neural network for this was smaller than that described in the [DDPG paper](https://arxiv.org/abs/1509.02971) with both the actor and the critic having 256 nodes in the first hidden layer and 128 nodes in the second hidden layer, with the critic having an additional layer of 64 nodes. RELU activation is used between the layers and optimized using the Adam optimizer.
