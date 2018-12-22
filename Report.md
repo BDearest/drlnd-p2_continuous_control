@@ -3,6 +3,8 @@
 ## Algorithm
 The algorithm used for this project is DDPG, Deep Deterministic Policy Gradients, which has been shown to be very effective at solving continuous action space environments, like the Reacher environment.
 
+In DDPG, an actor model and a critic model take in state information from the environment and together determine the best action for the agent to take. The information from each action is collected in a replay buffer that is then used for the agent to learn the best actions within the environment. In order to learn the agent samples from the replay buffer and then updates based on the information gathered in the replay buffer. The actor and the critic networks allow for a slow update of the policy, allowing the agent to improve over time.
+
 ## Hyperparameters
 The hyperparameters for the algorithm were set as follows:
         
