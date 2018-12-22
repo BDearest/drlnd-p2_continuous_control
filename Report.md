@@ -6,7 +6,7 @@ The algorithm used for this project is DDPG, Deep Deterministic Policy Gradients
 ## Hyperparameters
 The hyperparameters for the algorithm were set as follows:
         
-* Buffer Size 5e5
+	* Buffer Size 5e5
         
 	* Batch Size 128
         
